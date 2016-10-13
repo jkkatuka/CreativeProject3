@@ -1,0 +1,84 @@
+html, body, md-content {
+
+    background: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Twitter-Background.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+*:focus {
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin: 8px;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 8px;
+    width: 130px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.button:hover {
+    box-shadow: 10px 10px 0px #888888;
+}
+
+.button:active {
+    box-shadow: none;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#text {
+    font-size: 22px;
+}
+#horizontal-container {
+  height: 220px;
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.repeated-item {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 200px;
+}
+
+.repeated-item:hover .close {
+    visibility: visible;
+}
+
+
+md-toolbar {
+    color: #326ada;
+}
+
+md-content {
+  margin: 16px; 
+}
+
+.close {
+    z-index: 2;
+    color: black;
+    position: relative;
+    bottom: 91px;
+    right: 23px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+md-card {
+    border: 1px solid lightgrey;
+}
+
+.highlight {
+    border: 1px solid deeppink;
+    position: relative;
+    top: 20px;
+}
+
